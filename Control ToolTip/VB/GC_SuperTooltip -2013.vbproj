@@ -58,6 +58,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Syncfusion.Core">
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base">
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base">
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -120,14 +134,6 @@
       <ProductName>.NET Framework 3.5</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Syncfusion.Grid.Grouping.Windows">
-      <Version>19.3.0.47</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Tools.Windows">
-      <Version>19.3.0.47</Version>
-    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
